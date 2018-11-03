@@ -4,5 +4,7 @@ os:
   - osx
 node_js:
   - node
+before_script:
+  - "echo Getting ready to test!  "
 script:
   - npm test
