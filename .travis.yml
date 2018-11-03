@@ -4,6 +4,8 @@ os:
   - osx
 node_js:
   - node
+install:
+  - npm install
 before_script:
   - "echo Getting ready to test!  "
 script:
