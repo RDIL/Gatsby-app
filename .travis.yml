@@ -1,12 +1,23 @@
 language: node_js
+sudo: required
 os: 
   - linux
   - osx
 node_js:
   - node
+before_install:
+  - "echo Getting ready to install!  "
 install:
   - npm install
+after_install:
+  - "echo Finished installing!"
 before_script:
   - "echo Getting ready to test!  "
 script:
   - npm test
+after_script:
+  - "echo Finished test script!"
+after_success:
+  - "echo Build finished, the app built without any problems!  "
+after_failure:
+  - "echo Build finished, the app built without problems.  "
