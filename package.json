@@ -6,7 +6,10 @@
     "gatsby": "^2.0.38",
     "gatsby-link": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.1.1"
   },
   "keywords": [
     "gatsby"
