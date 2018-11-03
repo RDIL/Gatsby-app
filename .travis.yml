@@ -5,23 +5,25 @@ os:
   - osx
 node_js:
   - node
-  - "5"
   - "6"
   - "7"
   - "8"
+  - "9"
+  - "10"
+  - "11"
 before_install:
-  - "echo Getting ready to install!  "
+  - "echo Getting ready to install requirements from package.json file!  "
 install:
   - npm install
 after_install:
-  - "echo Finished installing!"
+  - "echo Finished installing from package.json file!  "
 before_script:
   - "echo Getting ready to test!  "
 script:
   - npm test
 after_script:
-  - "echo Finished test script!"
+  - "echo Finished test script!  "
 after_success:
-  - "echo Build finished, the app built without any problems!  "
+  - "echo Build finished, the app built without any problems!  Yay!  "
 after_failure:
-  - "echo Build finished, the app built without problems.  "
+  - "echo Build finished, the app built with problems.  How sad.  "
