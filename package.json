@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "gatsby": "^2.0.75",
-    "gatsby-link": "^2.0.7",
+    "gatsby-link": "^2.0.8",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "react-helmet": "^5.2.0",
     "react": "^16.5.2",
