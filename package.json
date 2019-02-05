@@ -12,7 +12,8 @@
     "react-scripts": "2.1.3"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "app"
   ],
   "license": "MIT",
   "scripts": {
