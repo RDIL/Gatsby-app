@@ -1,11 +1,10 @@
 container:
   image: node:latest
-  cpu: 4
-  memory: 10G
 
 test_task:
+  auto_cancellation: false
   node_modules_cache:
     folder: node_modules
     fingerprint_script: cat package.json
-    populate_script: npm install
+    populate_script: npm i
   test_script: npm test
