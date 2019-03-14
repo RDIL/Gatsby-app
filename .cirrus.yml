@@ -1,16 +1,16 @@
 task:
   matrix:
     - container:
-        - image: node:boron-jessie
+        image: node:boron-jessie
       name: NodeBoron
     - container:
-        - image: node:latest
+        image: node:latest
       name: NodeLatest
     - container:
-        - image: node:carbon-jessie
+        image: node:carbon-jessie
       name: NodeCarbon
     - container:
-        - image: node:dubnium-jessie
+        image: node:dubnium-jessie
       name: NodeDubnium
   auto_cancellation: false
   node_modules_cache:
