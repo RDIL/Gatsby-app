@@ -1,7 +1,17 @@
-container:
-  image: node:latest
-
-test_task:
+task:
+  matrix:
+    - container:
+        - image: node:boron-jessie
+      name: NodeBoron
+    - container:
+        - image: node:latest
+      name: NodeLatest
+    - container:
+        - image: node:carbon-jessie
+      name: NodeCarbon
+    - container:
+        - image: node:dubnium-jessie
+      name: NodeDubnium
   auto_cancellation: false
   node_modules_cache:
     folder: node_modules
