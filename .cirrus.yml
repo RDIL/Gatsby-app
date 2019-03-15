@@ -15,6 +15,9 @@ task:
   auto_cancellation: false
   node_modules_cache:
     folder: node_modules
-    fingerprint_script: cat package.json
+    fingerprint_script:
+      - cat package.json
+      - cat package-lock.json
+      - echo $OS
     populate_script: npm i
   test_script: npm test
