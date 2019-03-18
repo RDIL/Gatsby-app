@@ -1,9 +1,6 @@
 task:
   matrix:
     - container:
-        image: node:boron-jessie
-      name: NodeBoron
-    - container:
         image: node:latest
       name: NodeLatest
     - container:
