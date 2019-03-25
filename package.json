@@ -11,6 +11,10 @@
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/RDIL/Gatsby-app.git"
+  }
   "keywords": [
     "gatsby",
     "app"
