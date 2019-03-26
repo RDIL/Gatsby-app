@@ -17,4 +17,5 @@ task:
       - cat package-lock.json
       - echo $OS
     populate_script: npm i
+  disable_analytics_script: gatsby telemetry --disable
   test_script: npm test
