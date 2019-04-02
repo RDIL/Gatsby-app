@@ -3,7 +3,7 @@
   "description": "Cool starter Gatsby app!",
   "version": "1.0.0",
   "dependencies": {
-    "gatsby": "^2.3.4",
+    "gatsby": "^2.3.5",
     "gatsby-link": "^2.0.15",
     "gatsby-plugin-react-helmet": "^3.0.11",
     "react-helmet": "^5.2.0",
