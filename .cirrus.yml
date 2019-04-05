@@ -9,7 +9,6 @@ task:
     - container:
         image: node:dubnium-jessie
       name: NodeDubnium
-  auto_cancellation: false
   node_modules_cache:
     folder: node_modules
     fingerprint_script:
