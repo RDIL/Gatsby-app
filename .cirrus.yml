@@ -1,4 +1,6 @@
 task:
+  bootstrap_script: |
+    curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
   matrix:
     - container:
         image: node:latest
@@ -9,9 +11,10 @@ task:
     - container:
         image: node:dubnium-jessie
       name: NodeDubnium
-  node_modules_cache:
+  yarn_cache:
     folder: node_modules
     fingerprint_script:
       - cat package.json
-    populate_script: npm i
-  test_script: npm test
+      - cat yarn.lock
+    populate_script: yarn
+  test_script: yarn test
