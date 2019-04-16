@@ -6,9 +6,6 @@ task:
         image: node:latest
       name: NodeLatest
     - container:
-        image: node:carbon-jessie
-      name: NodeCarbon
-    - container:
         image: node:dubnium-jessie
       name: NodeDubnium
   yarn_cache:
