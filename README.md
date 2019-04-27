@@ -6,4 +6,3 @@ This is an app in GatsbyJS. Dependencies are constantly bumped by [Dependabot](h
 *Newest CI test results:*  
 ![NodeLatest](https://api.cirrus-ci.com/github/RDIL/Gatsby-app.svg?task=NodeLatest)
 ![NodeDubnium](https://api.cirrus-ci.com/github/RDIL/Gatsby-app.svg?task=NodeDubnium)
-![NodeCarbon](https://api.cirrus-ci.com/github/RDIL/Gatsby-app.svg?task=NodeCarbon)
