@@ -1,4 +1,5 @@
 task:
+  auto_cancellation: false
   bootstrap_script: |
     curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
   matrix:
