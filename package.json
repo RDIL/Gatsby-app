@@ -5,7 +5,7 @@
   "homepage": "https://github.com/RDIL/Gatsby-app",
   "dependencies": {
     "gatsby": "^2.14.1",
-    "gatsby-link": "^2.2.3",
+    "gatsby-link": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.1.5",
     "react-helmet": "^5.2.1",
     "react": "^16.9.0",
