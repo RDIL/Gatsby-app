@@ -6,7 +6,7 @@
   "dependencies": {
     "gatsby": "^2.20.16",
     "gatsby-link": "^2.3.2",
-    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-react-helmet": "^3.2.2",
     "react-helmet": "^5.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
